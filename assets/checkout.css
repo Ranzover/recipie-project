@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --tenne-tawny: #d65108;
+    --tenne-tawny-dark: #b54507;
+}
+
+body{
+    font-weight: 300;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#form-wrapper {
+    background-color: white;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  width: 600px;
+  height: auto;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid lightgray;
+}
+
+  #header {
+    background-color: #d65108;
+    border-radius: 10px 10px 0px 0px;
+    border: lightgray solid 1px;
+  }
+  
+  h1 {
+    color: #D9F6FF;
+  }
+  
+  h5 {
+    color: #997654;
+  }
+  
+  i {
+    color: #997654;
+  }
+  
+  button i {
+    color: white;
+  }
+  
+  hr {
+    border-color: #E6C9AC;
+  }
+  
+  button {
+    background-color: #d65108 !important;
+  }
+  
+  
+  select {
+    display: inline;
+  }
